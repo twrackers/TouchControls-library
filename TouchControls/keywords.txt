@@ -11,7 +11,7 @@ TouchTrigger KEYWORD1
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-update	KEYWORD2
+update KEYWORD2
 setAuto KEYWORD2
 read KEYWORD2
 write KEYWORD2
