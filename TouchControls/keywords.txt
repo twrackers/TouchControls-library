@@ -5,7 +5,7 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-TouchToggle	KEYWORD1
+TouchToggle KEYWORD1
 TouchTrigger KEYWORD1
 
 #######################################
