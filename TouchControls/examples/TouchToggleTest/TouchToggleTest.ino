@@ -3,7 +3,7 @@
 #include <TouchControls.h>
 
 const int tt_pin = 2;
-const int stat_pin = 3;
+const int stat_pin = LED_BUILTIN;
 
 TouchToggle tt(tt_pin);
 Pulser pulser(500, 500);
