@@ -3,7 +3,7 @@
 #include <TouchControls.h>
 
 const int tt_pin = 2;
-const int stat_pin = 3;
+const int stat_pin = LED_BUILTIN;
 
 TouchTrigger tt(tt_pin);
 OneShot os(5000);
@@ -28,4 +28,3 @@ void loop()
     }
   }
 }
-
