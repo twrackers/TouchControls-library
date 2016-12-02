@@ -23,4 +23,3 @@ void loop()
     digitalWrite(stat_pin, tt.read() ? HIGH : LOW);
   }
 }
-
