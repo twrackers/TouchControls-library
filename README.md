@@ -1,9 +1,9 @@
 # TouchControls-library
 This library provides C++ classes to support the Berrett Hill line of Touch Toggle and Touch Trigger capacitive-touch controls, designed for the model-railroad market.  More information on these controls can be found at the Berrett Hill web store:
 
-* [http://www.berretthillshop.com/store/products/touch-controls/] for Touch Toggles
+* [www.berretthillshop.com/store/products/touch-controls](http://www.berretthillshop.com/store/products/touch-controls/) for Touch Toggles
 
-* [http://www.berretthillshop.com/store/products/touch-triggers/] for Touch Triggers
+* [www.berretthillshop.com/store/products/touch-triggers](http://www.berretthillshop.com/store/products/touch-triggers/) for Touch Triggers
 
 All Touch Toggles and Touch Triggers use the same 3-pin 0.1"-spacing connector pinout used by many hobby servos and sensors:
 * yellow - signal
@@ -16,7 +16,7 @@ Each Touch control also has one or two LEDs which by default give an indication 
 
 What these Arduino classes provide is the ability to control the displayed indication on a Touch control *independent of their toggled or pressed state*.  In other words, you can *read* a control's state while separately *writing* to the control to change the indication it displays.  This capability is pretty much necessary in order to use the Touch Triggers in a useful manner.  With these classes the Touch Toggles can also be operated in the same way.
 
-This library is built upon my StateMachine class, available for download from my GitHub repository at (https://github.com/StateMachine).
+This library is built upon my StateMachine class, available for download from my GitHub repository at [github.com/StateMachine](https://github.com/StateMachine).
 
 ## TouchToggle
 
