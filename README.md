@@ -16,7 +16,7 @@ Each Touch control also has one or two LEDs which by default give an indication 
 
 What these Arduino classes provide is the ability to control the displayed indication on a Touch control *independent of their toggled or pressed state*.  In other words, you can *read* a control's state while separately *writing* to the control to change the indication it displays.  This capability is pretty much necessary in order to use the Touch Triggers in a useful manner.  With these classes the Touch Toggles can also be operated in the same way.
 
-This library is built upon my StateMachine class, available for download from my GitHub repository at [github.com/StateMachine](https://github.com/StateMachine).
+This library is built upon my StateMachine class, available for download from my GitHub repository at [github.com/twrackers/StateMachine-library](https://github.com/twrackers/StateMachine-library).
 
 ## TouchToggle
 
