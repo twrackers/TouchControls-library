@@ -12,7 +12,7 @@ All Touch Toggles and Touch Triggers use the same 3-pin 0.1"-spacing connector p
 
 Each Touch control also has one or two LEDs which by default give an indication of the control's state.
 * For Touch Toggles, touching the control causes the control to toggle between a LOW output (near 0 volts) and a HIGH output (near +5 volts).  The LEDs will show this state.
-* For Touch Triggers, the LOW output only appears while the control is being touched, so effectively they are *momentary* controls.  By default, they will show their pressed/non-pressed state, which is of limited usefulness.
+* For Touch Triggers, the LOW output only appears while the control is being touched, so effectively they are *momentary* controls.  By default, they will only show their pressed/non-pressed state, which is of limited usefulness.
 
 What these Arduino classes provide is the ability to control the displayed indication on a Touch control *independent of their toggled or pressed state*.  In other words, you can *read* a control's state while separately *writing* to the control to change the indication it displays.  This capability is pretty much necessary in order to use the Touch Triggers in a useful manner.  With these classes the Touch Toggles can also be operated in the same way.
 
