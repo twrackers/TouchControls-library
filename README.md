@@ -1,9 +1,9 @@
 # TouchControls-library
 This library provides C++ classes to support the Berrett Hill line of Touch Toggle and Touch Trigger capacitive-touch controls, designed for the model-railroad market.  More information on these controls can be found at the Berrett Hill web store:
 
-* (http://www.berretthillshop.com/store/products/touch-controls/) for Touch Toggles
+* [http://www.berretthillshop.com/store/products/touch-controls/] for Touch Toggles
 
-* (http://www.berretthillshop.com/store/products/touch-triggers/) for Touch Triggers
+* [http://www.berretthillshop.com/store/products/touch-triggers/] for Touch Triggers
 
 All Touch Toggles and Touch Triggers use the same 3-pin 0.1"-spacing connector pinout used by many hobby servos and sensors:
 * yellow - signal
