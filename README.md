@@ -18,6 +18,8 @@ What these Arduino classes provide is the ability to control the displayed indic
 
 This library is built upon my StateMachine class, available for download from my GitHub repository at [github.com/twrackers/StateMachine-library](https://github.com/twrackers/StateMachine-library).
 
+#### Instructions to install my Arduino libraries and sketches on Windows systems can be found at [gist.github.com/twrackers](https://gist.github.com/twrackers).
+
 ## TouchToggle
 
 ### TouchToggle(const int pin)
@@ -43,5 +45,3 @@ Sets the Touch Trigger's LED(s) to one of its two indications.  Unlike the Touch
 Returns the current pressed state of the Touch Trigger, LOW on the I/O pin returns **true** when read (control pressed).
 ### bool isTriggered()
 Returns **true** when the Touch Trigger has been pressed since the last time this method was called.  In other words, this method latches a touch to the control until this method is called.  Calling this method clears the triggered state.
-
-#### Instructions to install my Arduino libraries and sketches on Windows systems can be found at [gist.github.com/twrackers](https://gist.github.com/twrackers).
