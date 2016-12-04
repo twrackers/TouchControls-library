@@ -33,4 +33,15 @@ Returns the current toggled state of the Touch Toggle, LOW on the I/O pin return
 
 ## TouchTrigger
 
+### TouchTrigger(const int pin)
+Constructor, sets the Arduino I/O pin to which the Touch Trigger's signal lead is connected.
+### virtual bool update()
+Inherited from StateMachine class, returns true when the TouchTrigger's state has been updated.
+### void write(const bool illum)
+Sets the Touch Trigger's LED(s) to one of its two indications.  Unlike the Touch Toggle, there is no auto mode for Touch Triggers.
+### bool read() const
+Returns the current pressed state of the Touch Trigger, LOW on the I/O pin returns **true** when read (control pressed).
+### bool isTriggered()
+Returns **true** when the Touch Trigger has been pressed since the last time this method was called.  In other words, this method latches a touch to the control until this method is called.  Calling this method clears the triggered state.
+
 #### Instructions to install my Arduino libraries and sketches on Windows systems can be found at [gist.github.com/twrackers](https://gist.github.com/twrackers).
