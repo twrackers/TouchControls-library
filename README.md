@@ -17,7 +17,7 @@ Each Touch control also has one or two LEDs which by default give an indication 
   * The Two Light Red/Green version has one LED of each color, and comes in a black shell.
   * The Two Light Green/Green version has a pair of green LEDs, and comes in a green shell.
     
-* For Touch Triggers, the LOW output only appears while the control is being touched, so effectively they are *momentary* controls.  Touch Triggers require some form of external logic (such as an Arduino with appropriate code running) in order to display a useful indication.  At the time of thif writing, there are four flavors of Touch Triggers.
+* For Touch Triggers, the LOW output only appears while the control is being touched, so effectively they are *momentary* controls.  Touch Triggers require some form of external logic (such as an Arduino with appropriate code running) in order to display a useful indication.  At the time of this writing, there are four flavors of Touch Triggers.
 
   * The One Light version has a single red/green LED, and comes in a gray-and-orange shell.
   * The Two Light Red/Green version has one LED of each color, and comes in a black-and-orange shell.
