@@ -11,8 +11,18 @@ All Touch Toggles and Touch Triggers use the same 3-pin 0.1"-spacing connector p
 * brown - ground
 
 Each Touch control also has one or two LEDs which by default give an indication of the control's state.
-* For Touch Toggles, touching the control causes the control to toggle between a LOW output (near 0 volts) and a HIGH output (near +5 volts).  The LEDs will show this state.
-* For Touch Triggers, the LOW output only appears while the control is being touched, so effectively they are *momentary* controls.  Touch Triggers require some form of external logic (such as an Arduino with appropriate code running) in order to display a useful indication.
+* For Touch Toggles, touching the control causes the control to toggle between a LOW output (near 0 volts) and a HIGH output (near +5 volts).  The LEDs will show this state.  At the time of this writing, Touch Toggles come in three flavors.
+
+  * The One Light version has a single red/green LED, and comes in a gray shell.
+  * The Two Light Red/Green version has one LED of each color, and comes in a black shell.
+  * The Two Light Green/Green version has a pair of green LEDs, and comes in a green shell.
+    
+* For Touch Triggers, the LOW output only appears while the control is being touched, so effectively they are *momentary* controls.  Touch Triggers require some form of external logic (such as an Arduino with appropriate code running) in order to display a useful indication.  At the time of thif writing, there are four flavors of Touch Triggers.
+
+  * The One Light version has a single red/green LED, and comes in a gray-and-orange shell.
+  * The Two Light Red/Green version has one LED of each color, and comes in a black-and-orange shell.
+  * The Two Light Green/Green version has a pair of green LEDs, and comes in a green-and-orange shell.
+  * Not technically a Touch Trigger but working in the same manner is the Momentary Touch Control with a single yellow LED, in a yellow shell.
 
 What these Arduino classes provide is the ability to control the displayed indication on a Touch control *independent of their toggled or pressed state*.  In other words, you can *read* a control's state while separately *writing* to the control to change the indication it displays.  This capability is pretty much necessary in order to use the Touch Triggers in a useful manner.  With these classes the Touch Toggles can also be operated in the same way.
 
