@@ -24,7 +24,7 @@ Each Touch control also has one or two LEDs which by default give an indication 
   * The Two Light Green/Green version has a pair of green LEDs, and comes in a green-and-orange shell.
   * Not technically a Touch Trigger but working in the same manner is the Momentary Touch Control with a single yellow LED, in a yellow shell.  Of the four, this is the only one which, like the Touch Toggles, can be used with or without external control of the LED.
 
-What these Arduino classes provide is the ability to control the displayed indication on a Touch control *independent of their toggled or pressed state*.  In other words, you can *read* a control's state while separately *writing* to the control to change the indication it displays.  This capability is pretty much necessary in order to use the Touch Triggers in a useful manner.  With these classes the Touch Toggles can also be operated in the same way.
+What these Arduino classes provide is the ability to control the displayed indication on a Touch Control *independent of their toggled or pressed state*.  In other words, you can *read* a control's state while separately *writing* to the control to change the indication it displays.  This capability is pretty much necessary in order to use the Touch Triggers in a useful manner.  With these classes the Touch Toggles can also be operated in the same way.
 
 This library is built upon my StateMachine class, available for download from my GitHub repository at [github.com/twrackers/StateMachine-library](https://github.com/twrackers/StateMachine-library).
 
