@@ -6,8 +6,8 @@ This library provides C++ classes to support the Berrett Hill line of Touch Togg
 * [www.berretthillshop.com/store/products/touch-triggers](http://www.berretthillshop.com/store/products/touch-triggers/) for Touch Triggers
 
 All Touch Toggles and Touch Triggers use the same 3-pin 0.1"-spacing connector pinout used by many hobby servos and sensors:
-* yellow - signal
-* orange - +5 volts
+* orange - signal
+* red - +5 volts
 * brown - ground
 
 Each Touch control also has one or two LEDs which by default give an indication of the control's state.
