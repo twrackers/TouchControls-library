@@ -5,17 +5,17 @@
 #######################################
 # Datatypes (KEYWORD1)
 #######################################
-TouchToggle KEYWORD1
-TouchTrigger KEYWORD1
+TouchToggle	KEYWORD1
+TouchTrigger	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-update KEYWORD2
-setAuto KEYWORD2
-read KEYWORD2
-write KEYWORD2
-isTriggered KEYWORD2
+update	KEYWORD2
+setAuto	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
+isTriggered	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
