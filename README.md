@@ -30,9 +30,13 @@ This library is built upon my StateMachine class, available for download from my
 
 [github.com/twrackers/StateMachine-library](https://github.com/twrackers/StateMachine-library)
 
-#### Instructions to install this library can be found at
+Instructions to install the *StateMachine* library can be found at
 
 [github.com/twrackers/StateMachine-library/blob/main/INSTALL.md](https://github.com/twrackers/StateMachine-library/blob/main/INSTALL.md)
+
+#### Instructions to install the *TouchControls* library can be found at
+
+[github.com/twrackers/TouchControls-library/blob/main/INSTALL.md](https://github.com/twrackers/TouchControls-library/blob/main/INSTALL.md)
 
 ## TouchToggle
 
