@@ -30,9 +30,9 @@ This library is built upon my StateMachine class, available for download from my
 
 [github.com/twrackers/StateMachine-library](https://github.com/twrackers/StateMachine-library)
 
-#### Instructions to install my Arduino libraries and sketches on Windows systems can be found at
+#### Instructions to install this library can be found at
 
-[github.com/twrackers/MyDocuments/blob/master/Installation_to_Arduino.md](https://github.com/twrackers/MyDocuments/blob/master/Installation_to_Arduino.md)
+[github.com/twrackers/StateMachine-library/blob/main/INSTALL.md](https://github.com/twrackers/StateMachine-library/blob/main/INSTALL.md)
 
 ## TouchToggle
 
